@@ -1,9 +1,10 @@
-# `2020년 대전시 빅데이터 공모전`
-`Tableau` `R` `Python` `Self-Organizing-Map` 
+<h1 align="center"><strong>🔎 2020년 대전시 빅데이터 공모전</strong></h3>
+
+`Tableau` `R` `Python` `SOM(Self-Organizing-Map)`
 
 ---
 
-# 1. 소개
+# 🚦 1. 소개
 - 공모전: 2020년 대전시에서 주최한 빅데이터 공모전
 - 주제: 유동인구 데이터, 약국 근무데이터, 대전시 지리데이터를 활용해서 대전시 내에서 의료취약 지역을 찾자
 - 참가자: 김지환, 유건욱, 유세은, 정현우
@@ -17,7 +18,7 @@
 
 ---
 
-# 2. 분석과정
+# 🚦 2. 분석과정
 
 ## 2-1) 데이터 전처리
 * **대전시 유동인구 / 거주인구**\
@@ -44,7 +45,7 @@ node 1개당 평균 영업중인 약국이 얼마나 있는지 고려하였음
 
 ---
 
-# 3. 결과
+# 🚦 3. 결과
 <img src="images/전체.png" width="40%" height="40%"> <img src="images/node당 평균 약국수.png" width="50.5%" height="50.5%">
 <img src="images/유동인구:거주인구.png" width="70%" height="70%">
 <img src="images/평균나이.png" width="70%" height="70%">\
@@ -53,16 +54,16 @@ node 1개당 평균 영업중인 약국이 얼마나 있는지 고려하였음
 
 ---
 
-# 4. 파일 설명
-- `1. crawling phar data.ipynb` : 휴일지킴이약국에서 최근 1년동안 대전시 약국의 시간별 영업여부에 대해서 크롤링한 코드
-- `2. preprocess (population).ipynb` : 대전시 거주인구, 유동인구를 Tableau에 쓰기 적합하게 전처리하는 코드
-- `3. scatter phar, grid points.ipynb` : 약국을 대전시 지도에 흩뿌리고, 500m 간격으로 대전시에 grid를 만드는 코드
-- `4. cacultae weakness index.ipynb` : 시간대별로 대전시 전 행정동에 영업중인 약국의 개수를 계산하는 코드
-- `5. clustering.ipynb` : SOM, K-means, hierarchical clustering을 통해서 의료취약지역을 찾아내는 코드
+# 🚦 4. 파일 설명
+- [1. crawling phar data.ipynb](https://github.com/hw79chopin/Daejeon-bigdata-contest/blob/master/jupyter/1.%20crawling%20phar%20data.ipynb) : 휴일지킴이약국에서 최근 1년동안 대전시 약국의 시간별 영업여부에 대해서 크롤링한 코드
+- [2. preprocess (population).ipynb](https://github.com/hw79chopin/Daejeon-bigdata-contest/blob/master/jupyter/2.%20preprocess%20(population).ipynb) : 대전시 거주인구, 유동인구를 Tableau에 쓰기 적합하게 전처리하는 코드
+- [3. scatter phar, grid points.ipynb](https://github.com/hw79chopin/Daejeon-bigdata-contest/blob/master/jupyter/3.%20scatter%20phar%2C%20grid%20points.ipynb) : 약국을 대전시 지도에 흩뿌리고, 500m 간격으로 대전시에 grid를 만드는 코드
+- [4. cacultae weakness index.ipynb](https://github.com/hw79chopin/Daejeon-bigdata-contest/blob/master/jupyter/4.%20caculate%20weakness%20index.ipynb) : 시간대별로 대전시 전 행정동에 영업중인 약국의 개수를 계산하는 코드
+- [5. clustering.ipynb](https://github.com/hw79chopin/Daejeon-bigdata-contest/blob/master/jupyter/5.%20clustering.ipynb) : SOM, K-means, hierarchical clustering을 통해서 의료취약지역을 찾아내는 코드
 
 ---
 
-# 5. 참고문헌
+# 🚦 5. 참고문헌
 [1] 국가통계포털, 홈페이지, http://kosis.kr/statHtml/statHtml.do?orgId=117&tblId=DT_117N_A00404&conn_path=I3  
 [2] 청소년기본법, 홈페이지, http://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B2%AD%EC%86%8C%EB%85%84%EA%B8%B0%EB%B3%B8%EB%B2%95  
 [3] 김현경, <미국 유럽 ‘어린이 괴질’ 속출 영국 14세 소년 사망>, 한국경제, 2020  
@@ -77,3 +78,5 @@ node 1개당 평균 영업중인 약국이 얼마나 있는지 고려하였음
 [12] 손소영, 2020, Data Mining Theory & Application 2020-1  
 [13] Admdongkor <대한민국 행정동 지도> https://github.com/vuski/admdongkor  
 [14] 최재필, <맛집 문 열었나?… 한전, 파워온 서비스가 알려준다>, 전자신문, 2019  
+  
+<h3 align="center"><strong>끗! 🙌</strong></h3>
