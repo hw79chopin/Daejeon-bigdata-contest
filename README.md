@@ -1,6 +1,6 @@
 <h1 align="center"><strong>🔎 2020년 대전시 빅데이터 공모전</strong></h3>
 
-`Tableau` `R` `Python` `SOM(Self-Organizing-Map)`
+`#python` `#Tableau` `#R` `#SOM(Self-Organizing-Map)`
 
 ---
 
